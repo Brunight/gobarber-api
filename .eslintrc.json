@@ -1,7 +1,8 @@
 {
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "airbnb-base",
@@ -23,6 +24,8 @@
     "prettier"
   ],
   "rules": {
+    "no-console": "off",
+
     "no-underscore-dangle": "off",
     "prettier/prettier": "error",
     "@typescript-eslint/camelcase": "off",
