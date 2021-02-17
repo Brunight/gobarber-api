@@ -14,8 +14,8 @@ export default {
 
   defaults: {
     from: {
-      email: 'diego@rocketseat.com.br', // Email configurado no SES,
-      name: 'Diego da Rocketseat',
+      email: 'equipe@gobarber.com.br', // Email configurado no SES,
+      name: 'Equipe GoBarber',
     },
   },
 } as IMailConfig;
